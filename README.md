@@ -226,23 +226,23 @@ This is the infrastructure behind every comparative claim in this README and the
 
 **Training and validation loss (baseline)** — the overfitting pattern diagnosed in Section 4.4:
 
-![Training and validation loss curve](starter-kit/images/loss_curve.png)
+![Training and validation loss curve](images/loss_curve.png)
 
 **Optimizer & batch-size stability comparison** (Section 4.5):
 
-![Optimizer and batch size comparison](starter-kit/images/optimizer_comparison.png)
+![Optimizer and batch size comparison](images/optimizer_comparison.png)
 
 **Confusion matrix** (test set, baseline model, threshold = 0.5):
 
-![Confusion matrix](starter-kit/images/confusion_matrix.png)
+![Confusion matrix](images/confusion_matrix.png)
 
 **ROC curve** (test set, baseline model):
 
-![ROC curve](starter-kit/images/roc_curve.png)
+![ROC curve](images/roc_curve.png)
 
 **Experiment comparison** — baseline vs. tuned configurations:
 
-![Experiment comparison bar chart](starter-kit/images/experiment_comparison.png)
+![Experiment comparison bar chart](images/experiment_comparison.png)
 
 ---
 
@@ -293,18 +293,18 @@ Run all cells top to bottom — later cells depend on variables and functions de
 ## Project Structure
 
 ```
-├── starter-kit/
-│   ├── diabetes_prediction_mlp.ipynb   - Main project notebook (all work done here)
-│   ├── README.md                        - Notes on this folder's contents and how to run it
-│   ├── images/                          - Exported result plots (loss curve, ROC, confusion matrix, etc.)
+diabetes-risk-mlp/
+│   ├── diabetes_prediction_mlp.ipynb/html                    - Main project notebook (all work done here)
+│   ├── README.md                                             - Notes on this folder's contents and how to run it
+│   ├── images/                                               - Exported result plots (loss curve, ROC, confusion matrix, etc.)
 │   └── data/
 │      ├── diabetes_data.csv                                  - Balanced dataset (50,000 rows, 50/50 split)
 │      ├── diabetes_binary_health_indicators_BRFSS2015.csv    - Original imbalanced dataset (253,680 rows, ~14% prevalence)
 │      └── data_dictionary.md                                 - Feature descriptions and clinical context
 │
-├── Diabetes_Prediction_Project_Report.docx  - Full project report (12 sections, references included)
+├── Diabetes_Prediction_Project_Report.pdf                    - Full project report (12 sections, references included)
 ├── .gitignore
-├── README.md                              - This file
+├── README.md                                                 - This file
 └── requirements.txt
 ```
 
@@ -324,7 +324,7 @@ Run all cells top to bottom — later cells depend on variables and functions de
 10. Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825-2830.
 11. Davis, J., & Goadrich, M. (2006). The relationship between precision-recall and ROC curves. *ICML*, 233-240.
 
-For full APA-style citations and annotations, see the References section of [`Diabetes_Prediction_Project_Report.docx`](Diabetes_Prediction_Project_Report.docx).
+For full APA-style citations and annotations, see the References section of [Diabetes_Prediction_Project_Report](Diabetes_Prediction_Project_Report.pdf).
 
 ---
 
